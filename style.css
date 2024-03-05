@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(64, 64, 64);
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 30px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(64, 64, 64);
+    font-family: cursive;
+    padding: 50px 200px;
+}
+
+footer h2 {
+    color: white;
+}
+
+.contact-element {
+    display: block;
+}
+
+.contact-element a {
+    display: inline-block;
+    margin: 10px 25px 10px 0;
+    color: white;
+    text-decoration: none;
+}
+
+.ext-link {
+    display: block;
+}
+
+.ext-link a {
+    display:inline-block ;
+    margin:10px 5px 10px 0 ;
+    color: white;
+    text-decoration: none;
+}
+
+
