@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css2?family=Angkor&display=swap);
+
+.angkor-regular {
+    font-family: "Angkor", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Angkor", serif;
+}
+
+body {
+  background-color: rgb(255, 234, 207);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(64, 64, 64);
+}
+
+header img{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+header a:hover {
+    cursor: pointer;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 30px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+#banner {
+    background: rgb(48, 25, 25);
+    height: auto;
+    padding: 100px 100px;
+    margin-bottom: 20px;
+}
+
+#banner h1 {
+    color: rgb(255, 234, 207);
+    font-family: Arial;
+    text-align: center;
+}
+
+.description h3 {
+    padding-left: 55px;
+    color: rgb(48, 25, 25);
+}
+
+.description p {
+    margin-bottom: 45px;
+    padding-left: 55px;
+    color: rgb(48, 25, 25);
+}
+
+footer {
+    background-color: rgb(64, 64, 64);
+    font-family: cursive;
+    padding: 50px 200px;
+}
+
+footer h2 {
+    color: white;
+}
+
+.contact-element {
+    display: block;
+}
+
+.contact-element a {
+    display: inline-block;
+    margin: 10px 25px 10px 0;
+    color: white;
+    text-decoration: none;
+}
+
+.ext-link {
+    display: block;
+}
+
+.ext-link a {
+    display:inline-block ;
+    margin:10px 5px 10px 0 ;
+    color: rgb(138, 138, 138);
+    font-size: xx-small;
+    text-decoration: none;
+}
+
+.ext-link a:hover {
+  color: rgb(255, 255, 255);
+}
