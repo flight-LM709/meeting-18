@@ -54,9 +54,10 @@ nav a {
 }
 
 #banner h1 {
-    color: rgb(255, 234, 207);
+    color: rgb(245, 235, 220);
     font-family: Arial;
     text-align: center;
+    font-size: 50px;
 }
 
 .description h3 {
